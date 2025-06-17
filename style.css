@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.bac {
+    background-image: url("net\ bac.jpeg");
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+}
+
+.bac1 {
+    background-color: black;
+    opacity: .8;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+}
+
+nav {
+    max-width: 70vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+@media only screen and (max-width:500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .text b {
+        font-size: 30px;
+    }
+
+    .text h3 {
+        font-size: 18px;
+    }
+}
+
+.data {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text {
+    z-index: auto;
+    color: white;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#inp {
+    width: 15em;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    background-color: black;
+    border: 1px solid white;
+    opacity: .8;
+}
+
+#btn3 {
+    width: 7em;
+    color: white;
+    font-size: 1.3em;
+    background-color: rgba(235, 15, 15, 0.865);
+    border: none;
+}
+
+b {
+    font-size: 60px;
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+button {
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#btn1 {
+    width: 7em;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+
+#btn2 {
+    width: 4em;
+    color: white;
+    background-color: rgba(235, 15, 15, 0.865);
+    border: none;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
